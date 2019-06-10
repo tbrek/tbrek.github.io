@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <appstore>
 
- <app category="utilities">
-   <title>pure JS WiFi QR Code Generator</title>
-   <author></author>
-   <description>Ever wanted to create a cool QR code for your guests? But never wanted to type in your WiFi credentials into a form that submits them to a remote webserver to render the QR code? QiFi for the rescue! It will render the code in your browser, on your machine, so the WiFi stays as secure as it was before (read the code if you do not trust text on the internet :-))!</description>
-   <icon>https://qifi.org/qifi.png</icon>
-   <url>https://qifi.org/</url>
- </app>
+  <app category="utilities">
+    <title>ASCII Table</title>
+    <author>Senseful Solutions</author>
+    <description>Quickly format ASCII table. Great for source code comments and Github Markdown!</description>
+    <icon>img\generic_icon.png</icon>>
+    <url>https://ozh.github.io/ascii-tables/</url>
+  </app>
+
+  <app category="utilities">
+    <title>JS WiFi QR Code Generator</title>
+    <author></author>
+    <description>Ever wanted to create a cool QR code for your guests? But never wanted to type in your WiFi credentials into a form that submits them to a remote webserver to render the QR code? QiFi for the rescue! It will render the code in your browser, on your machine, so the WiFi stays as secure as it was before (read the code if you do not trust text on the internet :-))!</description>
+    <icon>https://qifi.org/qifi.png</icon>
+    <url>https://qifi.org/</url>
+  </app>
 
  <app category="utilities">
    <title>Launched</title>
@@ -15,6 +23,14 @@
    <description>A launchd.plist editor. Launchd is a powerful and flexible replacement for cron, but writing the plist files for it by hand can be difficult. This app makes it easier.</description>
    <icon>img\generic_icon.png</icon>
    <url>http://launched.zerowidth.com/</url>
+ </app>
+
+ <app category="utilities">
+   <title></title>
+   <author></author>
+   <description></description>
+   <icon></icon>
+   <url></url>
  </app>
 
 </appstore>
