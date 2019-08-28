@@ -1,2 +1,2 @@
-# tools-tombrek.com
+# tools.tombrek.com
 Some kind of tools
