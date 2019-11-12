@@ -2,11 +2,11 @@
 <appstore>
 
   <app category="utilities">
-    <title>ASCII Table</title>
+    <title>ASCII Tables</title>
     <author>Senseful Solutions</author>
     <description>Quickly format ASCII table. Great for source code comments and Github Markdown!</description>
     <icon>img\generic_icon.png</icon>>
-    <url>https://ozh.github.io/ascii-tables/</url>
+    <url>ascii_tables\index.html</url>
   </app>
 
   <app category="utilities">
