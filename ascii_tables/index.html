@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Format Text as Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/sfblog.css" media="screen">
+    <script   src="https://code.jquery.com/jquery-1.7.1.min.js"   integrity="sha256-iBcUE/x23aI6syuqF7EeT/+JFBxjPs5zeFJEXxumwb0="   crossorigin="anonymous"></script>
+    <script src="scripts/sfutils.js" type="text/javascript"></script>
+    <script src="scripts/sfblog.js" type="text/javascript"></script>
+    <script src="scripts/code.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <!-- <section class="page-header">
+    </section> -->
+
+    <section class="main-content">
+
+<h3>Format Text as Table</h3>
+
+<p>Here's a simple tool that lets you format text as a table. Simply enter in tab-delimited text (e.g. by copying from Excel), then press "Create Table."</p>
+
+<h4>Input:</h4>
+<textarea id="input" class="fixed-width large-text">
+Col1&#9;Col2&#9;NumCol
+Value 1&#9;Value 2&#9;123
+This is a row with only one cell
+This row is testing html entities&#9;Te<br />st&#9;45
+</textarea>
+
+<table class="data-input">
+    <tr>
+        <td>
+            Header style:</td>
+        <td>
+<select id="hdr-style">
+    <option value="none">None</option>
+    <option value="top" selected="true">Top Row</option>
+    <option value="ssheet">Spreadsheet</option>
+        </select></td>
+        <td><div class="info-icon" title="Spreadsheet: will add letters on top and numbers on the left side."></div></td>
+    </tr>
+    <tr>
+        <td> </td>
+        <td>
+            <input type="checkbox" id="auto-format" checked="true" /> <label for="auto-format">Auto Align</label></td>
+        <td><div class="info-icon" title="Number columns will be right-aligned and headers will be centered."></div></td>
+    </tr>
+    <tr>
+        <td>Style:</td>
+        <td>
+<select id="style">
+    <option value="0">MySQL</option>
+    <option value="1">Unicode Art</option>
+    <option value="html">HTML Table</option>
+            </select></td>
+        <td><div class="info-icon"><div class="info-text"><b>MySQL</b>: outputs using Ascii characters.<br /><b>Unicode Art</b>: uses unicode chars that makes it look more like a table.<br /><b>HTML</b>: outputs a normal html table.</div></div></td>
+    </tr>
+    <tr>
+        <td> </td>
+        <td><button onclick="createTable()">Create Table</button></td>
+        <td> </td>
+    </tr>
+</table>
+
+<h4>Output:</h4>
+<div id="outputText">
+  <textarea id="output" class="fixed-width large-text"></textarea>
+  <button onclick="copyToClipboard()">Copy table to clipboard</button>
+</div>
+
+
+
+
+      <footer class="site-footer">
+      </footer>
+
+    </section>
+
+
+  </body>
+</html>
