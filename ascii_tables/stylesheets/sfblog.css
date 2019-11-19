@@ -1,5 +1,6 @@
 .data-input select, .data-input button, .data-input input[type="text"] {
     width: 100%;
+
 }
 
 .fixed-width {
@@ -143,9 +144,9 @@ h5 {
 
 td {
   border-color: #BBB;
-    border-width: 1px 1px 0 0;
+    border-width: 0px 0px 0 0;
     border-style: dotted;
-  padding: 3px;
+  padding: 0px;
 }
 thead td {
   font-weight: bold;

@@ -26,11 +26,11 @@
  </app>
 
  <app category="utilities">
-   <title></title>
-   <author></author>
-   <description></description>
-   <icon></icon>
-   <url></url>
+   <title>JSON Beautifier</title>
+   <author>Martin Drapeau</author>
+   <description>Online tool to validate, format and beautify your JSON</description>
+   <icon>https://cdn0.iconfinder.com/data/icons/file-types-vol-5/64/json_file-512.png</icon>
+   <url>https://www.csvjson.com/json_beautifier</url>
  </app>
 
 </appstore>
